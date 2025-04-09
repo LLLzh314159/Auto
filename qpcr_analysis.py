@@ -1,9 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import plotly.express as px
 from scipy import stats
-import plotly.graph_objects as go
 import time
 from decimal import Decimal, ROUND_HALF_UP  # 添加decimal导入
 import io  # 添加io模块用于处理文件流
@@ -16,7 +14,6 @@ def check_dependencies():
         'streamlit': '1.24.0',
         'pandas': '1.5.0',
         'numpy': '1.21.0',
-        'plotly': '5.13.0',
         'scipy': '1.9.0',
         'openpyxl': '3.0.10',
         'xlsxwriter': '3.0.9'
